@@ -14,7 +14,8 @@
     <meta content="#9affe1" name="theme-color">
 
     <!-- Particles js and Typed js -->
-    <script src="./particles.js"></script>    
+    <script src="particles.js"></script>   
+    
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <!-- Styles -->
@@ -31,7 +32,7 @@
 
     <!-- Icons -->
     <!-- <link rel="icon" href="./favicon.ico"> -->
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    < src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
@@ -205,7 +206,6 @@
             <li class="icon__item"><i class="devicon-vscode-plain"></i></li>
             <li class="icon__item"><i class="devicon-intellij-plain"></i></li>
             
-            
         </ul>
     </div>
     </section>
@@ -214,17 +214,14 @@
     <footer class="sticky__footer">
         <p>Made with <span class="heart">&#x2764;</span> by ChaoticNebula </p>  
     </footer>
-
     <div id="particles-js"></div>
-    <script type = "text/javascript" src="particles.js"></script>
-    <script type = "text/javascript" src="app.js"></script>
-      <script>
-            
-            /*particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-            particlesJS.load('particles-js', 'particlesjs-config.json', () => {
-                
-            });
-       </script>
+
+    <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.js config loaded...');
+      });
+    </script>
+
     <script src="./main.js"></script>
     
 </body>

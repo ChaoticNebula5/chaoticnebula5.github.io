@@ -114,7 +114,4 @@ const typed = new Typed(".typing", {
   tabs.addEventListener("click", hideMobileMenu);
   navLogo.addEventListener("click", hideMobileMenu);
   
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles.js config loaded');
-  });
+
